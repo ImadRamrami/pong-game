@@ -22,3 +22,7 @@ Projet réalisé lors d'un TP encadré par Thomas Schatz à Aix-Marseille Univer
 ## 🚀 Lancer le jeu
 
 Ouvrir le fichier `pong.html` dans un navigateur web moderne.
+
+## Tests E2E (Cypress)
+- Local : `npm run start` (serve) puis `npm run cy:run` (ou `npm run cy:open`).
+- CI : workflow `.github/workflows/cypress.yml` (GitHub Actions).
