@@ -1,0 +1,19 @@
+{
+  "name": "pong-game",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Petit jeu de Pong (L2) + test E2E smoke avec Cypress.",
+  "main": "pong.js",
+  "scripts": {
+    "start": "http-server . -p 5500",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "test": "npm run cy:run"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^14.5.4",
+    "http-server": "^14.1.1"
+  }
+}
